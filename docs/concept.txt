@@ -1,0 +1,11 @@
+1. Difference Between Static and Dynamic Websites
+- Static Website: Content stays the same.
+- Dynamic Website: Content changes based on users or data.
+2. Role of HTML, CSS, and JavaScript
+- HTML: Creates the structure of a website.
+- CSS: Makes the website look nice.
+- JavaScript (JS): Makes the website interactive.
+3. Purpose of Folder Organization
+- Keeps files organized.
+- Makes files easy to find.
+- Makes the website easier to manage and update.

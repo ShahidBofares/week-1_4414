@@ -2,36 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Code Club - Posts</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <h1>Code Club Community</h1>
+  <header>
+    <img src="images/logo.png" alt="Code Club logo" class="logo">
+    <h1>Code Club</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="posts.html" class="active">Posts</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <a href="index.html">Home</a> |
-  <a href="posts.html">Posts</a> |
-  <a href="contact.html">Contact</a>
+  <main>
+    <h2 class="page-title">Blog Posts</h2>
 
-  <h2>Blog Posts</h2>
+    <article class="card">
+      <img src="images/post1.jpg" alt="First meetup">
+      <h3>Our First Meetup</h3>
+      <p>We held our first meetup and welcomed 20 new members. Everyone introduced themselves and shared their goals.</p>
+      <p class="tag">Events</p>
+    </article>
 
-  <h3>Our First Meetup</h3>
-  <p>We held our first meetup and welcomed 20 new members. Everyone introduced themselves and shared their goals.</p>
-  <p>Category: Events</p>
+    <article class="card">
+      <img src="images/post2.jpg" alt="HTML workshop">
+      <h3>HTML Workshop</h3>
+      <p>In this workshop we learned headings, paragraphs, lists and links, and built our first web page.</p>
+      <p class="tag">Tutorials</p>
+    </article>
 
-  <h3>HTML Workshop</h3>
-  <p>In this workshop we learned headings, paragraphs, lists and links, and built our first web page.</p>
-  <p>Category: Tutorials</p>
+    <article class="card">
+      <img src="images/post3.jpg" alt="Mini hackathon">
+      <h3>Mini Hackathon</h3>
+      <p>Teams had three hours to build a simple website. The winning team made a recipe sharing page.</p>
+      <p class="tag">Projects</p>
+    </article>
+  </main>
 
-  <h3>Mini Hackathon</h3>
-  <p>Teams had three hours to build a simple website. The winning team made a recipe sharing page.</p>
-  <p>Category: Projects</p>
-
-  <h2>Tags</h2>
-  <ul>
-    <li>HTML</li>
-    <li>Community</li>
-    <li>Beginners</li>
-  </ul>
+  <footer>
+    <p>&copy; 2026 Code Club Community</p>
+  </footer>
 
 </body>
 </html>
